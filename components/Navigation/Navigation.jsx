@@ -4,9 +4,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
-    { path: "/", name: "home" },
-    { path: "/pages/projects", name: "projects" },
-    { path: "/pages/contact", name: "contact" },
+    { path: "/pages/challenges", name: "challenges" },
+    { path: "/pages/solutions", name: "solutions" },
+    { path: "/pages/resources", name: "resources" },
+    { path: "/pages/pro", name: "unlock pro" },
 ];
 
 const Navigation = ({ containerStyles, linkStyles, underlineStyles }) => {
